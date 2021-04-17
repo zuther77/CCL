@@ -1,0 +1,62 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.App-header {
+
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.columns{margin:0;padding: 0;}
+.column{margin:0}
+
+input {
+  font-size: 16px;
+  padding: 5px;
+  margin: 10px;
+}
+
+label {
+  font-size: 18px;
+  width: 100px;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 5px;
+  width: 100px;
+  border-radius: 2px;
+}
+
+
+.is-active button{
+  background-color: #48c774;
+  color: white;
+}
+
+.hallticket-tabs {
+  margin-bottom: 20px;
+  border-bottom: none;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+
+
+}
